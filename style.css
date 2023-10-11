@@ -1,0 +1,69 @@
+/* Style for the body */
+body {
+    background-image: url('Images/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Style for the container */
+.container {
+    width: 100%;
+    max-width: 400px; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding: 40px;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+/* Style for the form */
+form {
+    text-align: left;
+}
+
+/* Style for labels */
+.form-label {
+    font-weight: bold;
+    color: white;
+    margin-top: 2%;
+}
+
+/* Style for input boxes */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Style for the submit button */
+.btn-primary {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style for the header */
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+    width: 70%;
+}
+
+.btn-primary:hover{
+   
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+}
+
+
+.error-message {
+    color: white;
+}
