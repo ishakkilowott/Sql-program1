@@ -50,17 +50,17 @@ body {
                     <a class="nav-link" href="index.php" style="color: white; margin-right: 2 5px;">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about-us.php" style="color: white; margin-left: 25px;">About Us</a>
+                    <a class="nav-link" href="about-us.php" style="color: white; margin-left: 25px;">About us</a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link" href="login.php" style="color: white; margin-left: 25px;">Sign In</a>
+                    <a class="nav-link" href="login.php" style="color: white; margin-left: 25px;">Sign in</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="register.php" style="color: white; margin-left: 25px;">Sign Up</a>
+                    <a class="nav-link" href="register.php" style="color: white; margin-left: 25px;">Sign up</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact-us.php" style="color: white; margin-left: 25px; margin-right:20px;">Contact Us</a>
+                    <a class="nav-link" href="contact-us.php" style="color: white; margin-left: 25px; margin-right:20px;">Contact us</a>
                 </li>
             </ul>
         </div>

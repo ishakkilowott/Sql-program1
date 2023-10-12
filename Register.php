@@ -27,18 +27,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $checkUsernameQuery = "SELECT * FROM users WHERE Username = '$Username'";
     $resultUsername = $conn->query($checkUsernameQuery);
 
-    // Check if the email already exists
-    $checkEmailQuery = "SELECT * FROM users WHERE Email = '$Email'";
-    $resultEmail = $conn->query($checkEmailQuery);
-
+    
     // Check if the mobile number already exists
     $checkMobileQuery = "SELECT * FROM users WHERE Mobile = '$Mobile'";
     $resultMobile = $conn->query($checkMobileQuery);
 
     if ($resultUsername->num_rows > 0) {
         echo '<p style="color: white;">Error: Username already exists. Please choose a different username.</p>';
-    } elseif ($resultEmail->num_rows > 0) {
-        echo '<p style="color: white;">Error: Email already exists. Please use a different email.</p>';
+    
     } elseif ($resultMobile->num_rows > 0) {
         echo '<p style="color: white;">Error: Mobile number already exists. Please use a different mobile number.</p>';
     } else {
